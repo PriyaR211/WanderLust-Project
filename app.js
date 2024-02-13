@@ -74,10 +74,6 @@ app.use((req, res, next)=>{
 })
 
 
-app.get("/", (req, res) => {
-    res.send("hi, this is root");
-})
-
 const Mongo_URL = "mongodb://127.0.0.1:27017/wanderlust";
 async function main() {
     await mongoose.connect(Mongo_URL);

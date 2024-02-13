@@ -1,0 +1,126 @@
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.navbar{
+    font-size: 1.1rem;
+    border-bottom: 2px solid #ececec;
+    background-color: white;
+    font-weight: 500;
+}
+
+.fa-compass{
+    font-size: 2.42rem;    
+    color: green;
+}
+
+
+/* footer */
+
+.f-info{
+    background-color: #f7f5f5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 8px 0px;
+    /* margin-bottom: 20px; */
+   
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-socials i{
+    font-size: 1.4rem;
+    margin-right: 12px;
+}
+
+
+
+/* card style */
+
+.row{
+    margin:0px !important;
+}
+
+.card-listing{
+    /* width:100% !important; */
+    margin-bottom: 20px;
+    border-style: none !important;
+    width:100% !important;
+}
+
+.card-body{
+    padding: 0px !important;
+}
+
+.card-body p{
+    margin: 0px !important;
+}
+
+.container{
+    /* margin: 0px !important; */
+    padding: 0px !important;
+    /* border:2px solid red; */
+    min-height: 80vh;
+}
+
+.card-img-top{
+    object-fit: cover !important;
+}
+
+.row img{
+    /* border:2px solid red; */
+    border-radius: 15px !important;
+}
+
+.row a{
+    text-decoration: none;
+}
+
+.card-img-overlay:hover{
+    background-color: white;
+    opacity: 0.2;
+}
+
+.form-label{
+    margin-bottom: 0px !important;
+}
+
+
+
+
+/* Show Listing */
+
+.listing-image{
+    height:43vh;
+    width:100%;
+} 
+
+.btns-show{
+    /* border:2px solid red; */
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.delete-btn{
+    background-color: #dd4242 !important;
+    border: none !important;
+}
+
+.delete-btn:hover{
+    background-color: red !important;
+}
+
+
+
+
+
